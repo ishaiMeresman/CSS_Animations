@@ -1,163 +1,115 @@
-/*Sprite animation*/
-@-o-keyframes spriteAnimationX{from{background-position-x:0;} to{background-position-x:-68px;}}
-@-moz-keyframes spriteAnimationX{from{background-position-x:0;} to{background-position-x:-68px;}}
-@-webkit-keyframes spriteAnimationX{from{background-position-x:0;} to{background-position-x:-68px;}}
-@keyframes spriteAnimationX{from{background-position-x:0;} to{background-position-x:-68px;}}
-
-@-o-keyframes spriteAnimationY{from{background-position-y:0;} to{background-position-y:-68px;}}
-@-moz-keyframes spriteAnimationY{from{background-position-y:0;} to{background-position-y:-68px;}}
-@-webkit-keyframes spriteAnimationY{from{background-position-y:0;} to{background-position-y:-68px;}}
-@keyframes spriteAnimationY{from{background-position-y:0;} to{background-position-y:-68px;}}
-
-/*Fade in*/
-@-o-keyframes fadeIn {0%{opacity: 0;} 100%{opacity: 1;}}
-@-moz-keyframes fadeIn {0%{opacity: 0;} 100%{opacity: 1;}}
-@-webkit-keyframes fadeIn {0%{opacity: 0;} 100%{opacity: 1;}}
-@keyframes fadeIn {0%{opacity: 0;} 100%{opacity: 1;}}
-
-/*Fade out*/
-@-o-keyframes fadeOut {0%{opacity: 1;} 100%{opacity: 0;}}
-@-moz-keyframes fadeOut {0%{opacity: 1;} 100%{opacity: 0;}}
-@-webkit-keyframes fadeOut {0%{opacity: 1;} 100%{opacity: 0;}}
-@keyframes fadeOut {0%{opacity: 1;} 100%{opacity: 0;}}
-
-/*Disappear*/
-@-o-keyframes appear{0%{visibility: hidden;} 100%{visibility: visible;}}
-@-moz-keyframes appear{0%{visibility: hidden;} 100%{visibility: visible;}}
-@-webkit-keyframes appear{0%{visibility: hidden;} 100%{visibility: visible;}}
-@keyframes appear{0%{visibility: hidden;} 100%{visibility: visible;}}
-
-/*blow up*/
-@-o-keyframes blowUp{0%{-o-transform: scale(0);} 100%{-o-transform: scale(1);}}
-@-moz-keyframes blowUp{0%{-moz-transform: scale(0);} 100%{-moz-transform: scale(1);}}
-@-webkit-keyframes blowUp{0%{-webkit-transform: scale(0);} 100%{-webkit-transform: scale(1);}}
-@keyframes blowUp{0%{transform: scale(0);} 100%{transform: scale(1);}}
-
-/*Shrink*/
-@-o-keyframes shrink {100%{-o-transform: scale(0);}}
-@-moz-keyframes shrink {100%{-moz-transform: scale(0);}}
-@-webkit-keyframes shrink {100%{-webkit-transform: scale(0);}}
-@keyframes shrink {100%{transform: scale(0);}}
-
-/*Spin*/
-@-o-keyframes spin {100%{-o-transform: rotate(360deg);}}
-@-moz-keyframes spin {100%{-moz-transform:rotate(360deg);}}
-@-webkit-keyframes spin {100%{-webkit-transform:rotate(360deg);}}
-@keyframes spin {100%{transform:rotate(360deg);}}
-
-@-o-keyframes rotateCounterClockWise {100%{-o-transform: rotateZ(-360deg);}}
-@-moz-keyframes rotateCounterClockWise {100%{-moz-transform:rotateZ(-360deg);}}
-@-webkit-keyframes rotateCounterClockWise {100%{-webkit-transform:rotateZ(-360deg);}}
-@keyframes rotateCounterClockWise {100%{transform:rotateZ(-360deg);}}
-
-@-o-keyframes squashAndStretch {0%{-o-transform: scale3D(1,1,1);} 25%{-o-transform: scale3D(0.8,1.2,1);} 50%{-o-transform: scale3D(1.2,0.8,1);} 75%{-o-transform: scale3D(0.9,1.1,1);} 100%{-o-transform: scale3D(1,1,1);}}
-@-moz-keyframes squashAndStretch {0%{-moz-transform: scale3D(1,1,1);} 25%{-moz-transform: scale3D(0.8,1.2,1);} 50%{-moz-transform: scale3D(1.2,0.8,1);} 75%{-moz-transform: scale3D(0.9,1.1,1);} 100%{-moz-transform: scale3D(1,1,1);}}
-@-webkit-keyframes squashAndStretch {0%{-webkit-transform: scale3D(1,1,1);} 25%{-webkit-transform: scale3D(0.8,1.2,1);} 50%{-webkit-transform: scale3D(1.2,0.8,1);} 75%{-webkit-transform: scale3D(0.9,1.1,1);} 100%{-webkit-transform: scale3D(1,1,1);}}
-@keyframes squashAndStretch {0%{transform: scale3D(1,1,1);} 25%{transform: scale3D(0.8,1.2,1);} 50%{transform: scale3D(1.2,0.8,1);} 75%{transform: scale3D(0.9,1.1,1);} 100%{transform: scale3D(1,1,1);}}
-
-/*Pulse*/
-@-o-keyframes pulse {100%{-o-transform: scale(1.1);}}
-@-moz-keyframes pulse {100%{-moz-transform: scale(1.1);}}
-@-webkit-keyframes pulse {100%{-webkit-transform: scale(1.1);}}
-@keyframes pulse {100%{transform: scale(1.1);}}
-
-@-o-keyframes pulse2 {100%{-o-transform: scale(0.95);}}
-@-moz-keyframes pulse2 {100%{-moz-transform: scale(0.95);}}
-@-webkit-keyframes pulse2 {100%{-webkit-transform: scale(0.95);}}
-@keyframes pulse2 {100%{transform: scale(0.95);}}
-
-@-o-keyframes pulse3 {0%{-o-transform: scale(1.1);} 25%{-o-transform: scale(1);} 75%{-o-transform: scale(1);} 100%{-o-transform: scale(1.1);}}
-@-moz-keyframes pulse3 {0%{-moz-transform: scale(1.1);} 25%{-moz-transform: scale(1);} 75%{-moz-transform: scale(1);} 100%{-moz-transform: scale(1.1);}}
-@-webkit-keyframes pulse3 {0%{-webkit-transform: scale(1.1);} 25%{-webkit-transform: scale(1);} 75%{-webkit-transform: scale(1);} 100%{-webkit-transform: scale(1.1);}}
-@keyframes pulse3 {0%{transform: scale(1.1);} 25%{transform: scale(1);} 75%{transform: scale(1);} 100%{transform: scale(1.1);}}
-
-/*Squash*/
-@-o-keyframes squash {100%{-o-transform: scale3D(1.03,0.95,10);}}
-@-moz-keyframes squash {100%{-moz-transform: scale3D(1.03,0.95,10);}}
-@-webkit-keyframes squash {100%{-webkit-transform: scale3D(1.03,0.95,10);}}
-@keyframes squash {100%{transform: scale3D(1.03,0.95,10);}}
-
-/*Change color*/
-@-o-keyframes colorSwap {0%{background-color: #91233d;} 100%{background-color: #b4314d;}}
-@-moz-keyframes colorSwap {0%{background-color: #91233d;} 100%{background-color: #b4314d;}}
-@-webkit-keyframes colorSwap {0%{background-color: #91233d;} 100%{background-color: #b4314d;}}
-@keyframes colorSwap {0%{background-color: #91233d;} 100%{background-color: #b4314d;}}
-
-/*Glow*/
-@-o-keyframes glow {0%{box-shadow: 0 0 40px #00eeff;} 100%{box-shadow: 0 0 40px #0064ff;}}
-@-moz-keyframes glow {0%{box-shadow: 0 0 40px #00eeff;} 100%{box-shadow: 0 0 40px #0064ff;}}
-@-webkit-keyframes glow {0%{box-shadow: 0 0 40px #00eeff;} 100%{box-shadow: 0 0 40px #0064ff;}}
-@keyframes glow {0%{box-shadow: 0 0 40px #00eeff;} 100%{box-shadow: 0 0 40px #0064ff;}}
-
-@-o-keyframes glow2 {0%{box-shadow: 0 0 1px 2px #f1cca1;} 100%{box-shadow: 0 0 1px 2px #756b5f;}}
-@-moz-keyframes glow2 {0%{box-shadow: 0 0 1px 2px #f1cca1;} 100%{box-shadow: 0 0 1px 2px #756b5f;}}
-@-webkit-keyframes glow2 {0%{box-shadow: 0 0 1px 2px #f1cca1;} 100%{box-shadow: 0 0 1px 2px #756b5f;}}
-@keyframes glow2 {0%{box-shadow: 0 0 1px 2px #f1cca1;} 100%{box-shadow: 0 0 1px 2px #756b5f;}}
-
-@-webkit-keyframes glowRed {0%{-webkit-filter: drop-shadow(0px 0px 2px #FF0000);} 100%{-webkit-filter: drop-shadow(0px 0px 8px #FF0000);}}
-@keyframes glowRed {0%{filter: drop-shadow(0px 0px 2px #FF0000);} 100%{filter: drop-shadow(0px 0px 8px #FF0000);}}
-
-
-/*3D Flip*/
-@-o-keyframes flip {100%{-o-transform: rotateY(360deg);}}
-@-moz-keyframes flip {100%{-moz-transform: rotateY(360deg);}}
-@-webkit-keyframes flip {100%{-webkit-transform: rotateY(360deg);}}
-@keyframes flip {100%{transform: rotateY(360deg);}}
-
-/*Wiggle*/
-@-o-keyframes wiggle {0%{left:82.3%;} 100%{left:84.3%;}}
-@-moz-keyframes wiggle {0%{left:82.3%;} 100%{left:84.3%;}}
-@-webkit-keyframes wiggle {0%{left:82.3%;} 100%{left:84.3%;}}
-@keyframes wiggle {0%{left:82.3%;} 100%{left:84.3%;}}
-
-/*Enter from right*/
-@-o-keyframes enterFromRight { 100%{right:0;}}
-@-moz-keyframes enterFromRight { 100%{right:0;}}
-@-webkit-keyframes enterFromRight { 100%{right:0;}}
-@keyframes enterFromRight { 100%{right:0;}}
-
-/*Enter from left*/
-@-o-keyframes enterFromLeft { 100%{left:0;}}
-@-moz-keyframes enterFromLeft { 100%{left:0;}}
-@-webkit-keyframes enterFromLeft { 100%{left:0;}}
-@keyframes enterFromLeft { 100%{left:0;}}
-
-/*JumpUp*/
-@-o-keyframes jumpUp {0%{bottom:10%;} 100%{bottom:23%;}}
-@-moz-keyframes jumpUp {0%{bottom:10%;} 100%{bottom:23%;}}
-@-webkit-keyframes jumpUp {0%{bottom:10%;} 100%{bottom:23%;}}
-@keyframes jumpUp {0%{bottom:10%;} 100%{bottom:23%;}}
-
-@-o-keyframes fallDown {0%{top: -105%;} 80%{top: 100%;} 90%{top: 90%;} 100%{top: 100%;}}
-@-moz-keyframes fallDown {0%{top: -105%;} 80%{top: 100%;} 90%{top: 90%;} 100%{top: 100%;}}
-@-webkit-keyframes fallDown {0%{top: -105%;} 80%{top: 100%;} 90%{top: 90%;} 100%{top: 100%;}}
-@keyframes fallDown {0%{top: -105%;} 80%{top: 100%;} 90%{top: 90%;} 100%{top: 100%;}}
-
-/*Sharpen*/
-@-webkit-keyframes sharpen{0%{-webkit-filter: blur(3px);} 100%{-webkit-filter: blur(0px);}}
-@keyframes sharpen{0%{filter: blur(3px);} 100%{filter: blur(0px);}}
-
-/*Line Animation*/
-@-o-keyframes dash {0% {stroke-dashoffset: 2000;} 100%{stroke-dashoffset: 0;}}
-@-moz-keyframes dash {0% {stroke-dashoffset: 2000;} 100%{stroke-dashoffset: 0;}}
-@-webkit-keyframes dash {0% {stroke-dashoffset: 2000;} 100%{stroke-dashoffset: 0;}}
-@keyframes dash {0% {stroke-dashoffset: 2000;} 100%{stroke-dashoffset: 0;}}
-
-/*screenSwipe*/
-@-o-keyframes slide {0%{left:-100%;} 100%{left:200%;}}
-@-moz-keyframes slide {0%{left:-100%;} 100%{left:200%;}}
-@-webkit-keyframes slide {0%{left:-100%;} 100%{left:200%;}}
-@keyframes slide {0%{left:-100%;} 100%{left:200%;}}
-
-/*Bouncing Ball*/
-@-o-keyframes squashAndStretch {0%{-o-transform: scale3D(1,1,1);} 25%{-o-transform: scale3D(0.8,1.2,1);} 50%{-o-transform: scale3D(1.2,0.8,1);} 75%{-o-transform: scale3D(0.9,1.1,1);} 100%{-o-transform: scale3D(1,1,1);}}
-@-moz-keyframes squashAndStretch {0%{-moz-transform: scale3D(1,1,1);} 25%{-moz-transform: scale3D(0.8,1.2,1);} 50%{-moz-transform: scale3D(1.2,0.8,1);} 75%{-moz-transform: scale3D(0.9,1.1,1);} 100%{-moz-transform: scale3D(1,1,1);}}
-@-webkit-keyframes squashAndStretch {0%{-webkit-transform: scale3D(1,1,1);} 25%{-webkit-transform: scale3D(0.8,1.2,1);} 50%{-webkit-transform: scale3D(1.2,0.8,1);} 75%{-webkit-transform: scale3D(0.9,1.1,1);} 100%{-webkit-transform: scale3D(1,1,1);}}
-@keyframes squashAndStretch {0%{transform: scale3D(1,1,1);} 25%{transform: scale3D(0.8,1.2,1);} 50%{transform: scale3D(1.2,0.8,1);} 75%{transform: scale3D(0.9,1.1,1);} 100%{transform: scale3D(1,1,1);}}
-
+.animationStart{
+    animation-name:fadeIn;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-play-state: running;
+    animation-fill-mode: none;
+}
+.spriteAnimationY{
+    -o-animation: spriteAnimationY 0.5s steps(5) infinite;
+    -moz-animation: spriteAnimationY 0.5s steps(5) infinite;
+    -webkit-animation: spriteAnimationY 0.5s steps(5) infinite;
+    animation: spriteAnimationY 0.5s steps(5) infinite;
+}
+.spriteAnimationX{
+    -o-animation: spriteAnimationX 0.5s steps(5) infinite;
+    -moz-animation: spriteAnimationX 0.5s steps(5) infinite;
+    -webkit-animation: spriteAnimationX 0.5s steps(5) infinite;
+    animation: spriteAnimationX 0.5s steps(5) infinite;
+}
+.fadeOut{
+    -o-animation: fadeOut 0.5s both ease-in-out;
+    -moz-animation: fadeOut 0.5s both ease-in-out;
+    -webkit-animation: fadeOut 0.5s both ease-in-out;
+    animation: fadeOut 0.5s both ease-in-out;
+}
+.fadeIn{
+    -o-animation: fadeIn 0.5s both ease-in-out;
+    -moz-animation: fadeIn 0.5s both ease-in-out;
+    -webkit-animation: fadeIn 0.5s both ease-in-out;
+    animation: fadeIn 0.5s both ease-in-out;
+}
+.blowUp{
+    -o-animation: blowUp 0.5s both cubic-bezier(.37,.06,.25,1.25);
+    -moz-animation: blowUp 0.5s both cubic-bezier(.37,.06,.25,1.25);
+    -webkit-animation: blowUp 0.5s both cubic-bezier(.37,.06,.25,1.25);
+    animation: blowUp 0.5s both cubic-bezier(.37,.06,.25,1.25);
+}
+.shrink{
+    -o-animation: shrink 0.5s cubic-bezier(.61,-0.19,.76,.78) both;
+    -moz-animation: shrink 0.5s cubic-bezier(.61,-0.19,.76,.78) both;
+    -webkit-animation: shrink 0.5s cubic-bezier(.61,-0.19,.76,.78) both;
+    animation: shrink 0.5s cubic-bezier(.61,-0.19,.76,.78) both;
+}
+.spin{
+    -o-animation: spin 2s cubic-bezier(.61,-0.19,.76,.78) both;
+    -moz-animation: spin 2s cubic-bezier(.61,-0.19,.76,.78) both;
+    -webkit-animation: spin 2s cubic-bezier(.61,-0.19,.76,.78) both;
+    animation: spin 2s cubic-bezier(.61,-0.19,.76,.78) both;
+}
+.pulse1{
+    -o-animation: pulse1 1s both ease-in-out infinite alternate;
+    -moz-animation: pulse1 1s both ease-in-out infinite alternate;
+    -webkit-animation: pulse1 1s both ease-in-out infinite alternate;
+    animation: pulse1 1s both ease-in-out infinite alternate;
+}
+.glowRed{
+    -o-animation: glowRed 0.2s both ease-in-out infinite alternate;
+    -moz-animation: glowRed 0.2s both ease-in-out infinite alternate;
+    -webkit-animation: glowRed 0.2s both ease-in-out infinite alternate;
+    animation: glowRed 0.2s both ease-in-out infinite alternate;
+}
+.rotateClockWise{
+    -o-animation: rotateClockWise 0.3s both linear infinite;
+    -moz-animation: rotateClockWise 0.3s both linear infinite;
+    -webkit-animation: rotateClockWise 0.3s both linear infinite;
+    animation: rotateClockWise 0.3s both linear infinite;
+}
+.rotateCounterClockWise{
+    -o-animation: rotateCounterClockWise 0.3s both linear infinite;
+    -moz-animation: rotateCounterClockWise 0.3s both linear infinite;
+    -webkit-animation: rotateCounterClockWise 0.3s both linear infinite;
+    animation: rotateCounterClockWise 0.3s both linear infinite;
+}
+.st0{
+    fill:none;stroke:#2D78D3;stroke-width:3;stroke-miterlimit:10; stroke-dasharray: 2000;
+    stroke-dashoffset: 0;
+    -o-animation: dash 4.9s linear forwards;
+    -moz-animation: dash 4.9s linear forwards;
+    -webkit-animation: dash 4.9s linear forwards;
+    animation: dash 4.9s linear forwards;
+}
+.bouncingBall{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    -o-transform-origin: bottom center;
+    -moz-transform-origin: bottom center;
+    -webkit-transform-origin: bottom center;
+    transform-origin: bottom center;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: red;
+    -o-animation: squashAndStretch 1s forwards ease-in-out;
+    -moz-animation: squashAndStretch 1s forwards ease-in-out;
+    -webkit-animation: squashAndStretch 1s forwards ease-in-out;
+    animation: squashAndStretch 1s forwards ease-in-out;
+}
 /*glowing particle*/
-@-o-keyframes particle{0%{bottom:-5px;left: 20%;opacity: 1;} 25%{left: 25%;opacity: 1;} 75%{left: 15%;opacity: 1;} 100%{bottom: 80%;left: 20%;opacity: 0;}}
-@-moz-keyframes particle{0%{bottom: -5px;left: 20%;opacity: 1;} 25%{left: 25%;opacity: 1;} 75%{left: 15%;opacity: 1;} 100%{bottom: 80%;left: 20%;opacity: 0;}}
-@-webkit-keyframes particle{0%{bottom: -5px;left: 20%;opacity: 1;} 25%{left: 25%;opacity: 1;} 75%{left: 15%;opacity: 1;} 100%{bottom: 80%;left: 20%;opacity: 0;}}
-@keyframes particle{0%{bottom: -5px;left: 20%;opacity: 1;} 25%{left: 25%;opacity: 1;} 75%{left: 15%;opacity: 1;} 100%{bottom: 80%;left: 20%;opacity: 0;}}
-
+.fractal{
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #98fff2;
+    z-index: 99999;
+    border-radius: 50%;
+    box-shadow: 0 0 25px 5px #9898fc;
+}
+#f1{
+    -o-animation: f1 3s both ease-in-out infinite;
+    -moz-animation: f1 3s both ease-in-out infinite;
+    -webkit-animation: f1 3s both ease-in-out infinite;
+    animation: f1 3s both ease-in-out infinite;
+}
